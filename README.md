@@ -1,7 +1,7 @@
 # Gallery-App 
 ## Author  
- 
-  
+
+
 >[Adeline Makokha](https://github.com/adeline-pepela)  
   
 # Description  
