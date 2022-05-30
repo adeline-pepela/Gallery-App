@@ -7,7 +7,8 @@
 # Description  
 This is a Django application for personal gallery that allows a user to upload images for other to see and be able to to share by coping the image link.
   
- 
+ ###### Search results
+ <img src="https://raw.githubusercontent.com/adeline-pepela/Gallery-App/master/static/images/pic.jpg"> 
  
 ## User Story  
   
