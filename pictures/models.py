@@ -39,11 +39,11 @@ class Location(models.Model):
 class Image(models.Model):
     image = models.ImageField(upload_to='images/')
     name = models.CharField(max_length=60)
-    description = models.TextField()
+    description = models.TextField(max_length=500)
     author = models.CharField(max_length=40, default='admin')
     date = models.DateTimeField(auto_now_add=True)
-    category = models.ForeignKey(Category)
-    location = models.ForeignKey(Location)
+    category = models.ForeignKey(Category,on_delete=models.CASCADE,)
+    location = models.ForeignKey(Location,on_delete=models.CASCADE,)
 
     @classmethod
     def filter_by_location(cls, location):
